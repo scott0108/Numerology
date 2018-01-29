@@ -1,0 +1,57 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section style {
+    <style>
+    </style>
+}
+<div class="content">
+    <form class="pure-form">
+        <fieldset class="pure-group">
+            <input id="Username" type="text" class="pure-input-1" placeholder="@ViewBag.Username" required />
+            <input id="Email" type="email" class="pure-input-1" placeholder="@ViewBag.Email" required />
+        </fieldset>
+        <fieldset class="pure-group">
+            <textarea id="ContactContent" class="pure-input-1" placeholder="@ViewBag.ContactContent" rows="8" required></textarea>
+        </fieldset>
+        <button type="submit" class="pure-button pure-input-1 pure-button-primary">@ViewBag.Send</button>
+    </form>
+</div>
+@section scripts {
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script>
+        @*(function ($, PostUrl) {
+            $(document).ready(function () {
+                $("form").submit(function (e) {
+                    e.preventDefault();
+
+                    var tmpxhr = this.xhr;
+                    if (tmpxhr) {
+                        this.xhr = null;
+                        tmpxhr.abort();
+                    }
+
+                    this.xhr = $.ajax({
+                        url: PostUrl,
+                        dataType: "jsonp",
+                        jsonp: "jsoncallback",
+                        method: "POST",
+                        data: { Username: $("#Username").val(), Email: $("#Email").val(), ContactContent: $("#ContactContent").val() },
+                        success: function (data) {
+                            if (data.ErrCode != 0) {
+                                alert(data.ErrMsg);
+                            } else {
+                                alert("Thank you!");
+                            }
+                        }.bind(this),
+                        error: function (jqXHR, textStatus, errorThrown) {
+                            if (textStatus === "abort" && jqXHR !== this.xhr) return;
+                            alert(jqXHR.statusText);
+                        }.bind(this)
+                    });
+                });
+            });
+        })(jQuery, "@Url.Action("SubmitContact", "Chess")");*@
+        !function(a,b){a(document).ready(function(){a("form").submit(function(c){c.preventDefault();var d=this.xhr;d&&(this.xhr=null,d.abort()),this.xhr=a.ajax({url:b,dataType:"jsonp",jsonp:"jsoncallback",method:"POST",data:{Username:a("#Username").val(),Email:a("#Email").val(),ContactContent:a("#ContactContent").val()},success:function(a){0!=a.ErrCode?alert(a.ErrMsg):alert("Thank you!")}.bind(this),error:function(a,b,c){"abort"===b&&a!==this.xhr||alert(a.statusText)}.bind(this)})})})}(jQuery,"");
+    </script>
+}

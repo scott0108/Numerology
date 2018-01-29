@@ -1,0 +1,149 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section style {
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+    <![endif]-->
+    <style>
+        dl {
+            border: 1px solid #FF9900;
+            padding: 0.5em;
+            display: table;
+            border-radius: 5px;
+            width: 50px;
+            text-align: center;
+            background-color: #FFFFCC;
+        }
+
+        dt {
+            display: table-row;
+            text-align: center;
+            font-weight: bold;
+            padding: 0.5em;
+            color: #FF9900;
+        }
+
+        dd {
+            display: table-row;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        .chessLot {
+            margin: 2px auto;
+            width: 40px;
+            height: 40px;
+            background-color: #006500;
+            border-radius: 100%;
+            border: 2px solid black;
+        }
+
+            .chessLot:hover {
+                border: 2px solid red;
+                background-color: #fff;
+            }
+
+        .chessSel {
+            margin: 2px auto;
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            border-radius: 100%;
+            border: 2px solid black;
+        }
+
+        .ccle {
+            margin: 0px auto;
+            text-align: center;
+        }
+
+            .ccle div {
+                display: inline-block;
+                vertical-align: top;
+                border: 1px solid black;
+                margin: 2px;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+
+        .chessPieces {
+            width: 100px;
+            height: 100px;
+            background-color: #c8c8c8;
+            border-radius: 100%;
+        }
+
+            .chessPieces > div {
+                font-family: 標楷體;
+                width: 80%;
+                height: 80%;
+                background-color: #8c8c8c;
+                border-radius: 50%;
+                margin: auto auto;
+                position: relative;
+                border: 1px solid #222;
+                top: 3px;
+                text-align: center;
+            }
+
+                .chessPieces > div span {
+                    font-weight: 900;
+                    font-size: 20px;
+                    padding: 2px;
+                    position: relative;
+                    border-radius: 50%;
+                    background-color: #999;
+                    top: 4px;
+                }
+
+        .black > div {
+            color: black;
+            border-color: #222;
+        }
+
+        .red > div {
+            color: #a00;
+            border-color: #a00;
+        }
+    </style>
+}
+<div class="content"></div>
+@section scripts {
+    @*<!--[if lte IE 8]>
+            <script src="~/js/libs/es5-shim.min.js"></script>
+            <script src="~/js/libs/es5-sham.min.js"></script>
+            <script src="https://fb.me/react-0.14.2.js"></script>
+            <script src="https://fb.me/react-dom-0.14.2.js"></script>
+        <![endif]-->
+    *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js"></script>
+    @*<script src="https://unpkg.com/react@15.4.2/dist/react.js"></script>
+        <script src="https://unpkg.com/react-dom@15.4.2/dist/react-dom.js"></script>
+            <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>*@
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    @*<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>*@
+    <script>
+        window.i18n = (function () {
+            return @Html.Raw(ViewBag.i18n);
+        })();
+
+        window.Identity = (function () {
+            return {
+                FortuneResult: "@Url.Action("FortuneResult", "Chess", new { Language = ViewBag.Language })"
+            };
+        })();
+        $(document).ready(function () { $("body").attr("unselectable", "on").css({ "-moz-user-select": "-moz-none", "-moz-user-select": "none", "-o-user-select": "none", "-khtml-user-select": "none", "-webkit-user-select": "none", "-ms-user-select": "none", "user-select": "none" }).bind("selectstart", function () { return !1 }) });
+    </script>
+    @*<script src="~/js/jsx/Fortune.jsx" type="text/babel"></script>*@
+    <script src="~/js/Fortune.min.js"></script>
+}

@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppName" xml:space="preserve">
+    <value>風雲棋卦</value>
+  </data>
+  <data name="autumn" xml:space="preserve">
+    <value>秋</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>聯絡我們</value>
+  </data>
+  <data name="east" xml:space="preserve">
+    <value>東</value>
+  </data>
+  <data name="Environment" xml:space="preserve">
+    <value>地利</value>
+  </data>
+  <data name="Fortune" xml:space="preserve">
+    <value>我要卜棋卦</value>
+  </data>
+  <data name="FortuneSub1" xml:space="preserve">
+    <value>問題</value>
+  </data>
+  <data name="FortuneSub2" xml:space="preserve">
+    <value>占卜答覆</value>
+  </data>
+  <data name="FortuneSub3" xml:space="preserve">
+    <value>事件表現</value>
+  </data>
+  <data name="FortuneSub4" xml:space="preserve">
+    <value>時空人為</value>
+  </data>
+  <data name="FortuneSub5" xml:space="preserve">
+    <value>四季吉凶</value>
+  </data>
+  <data name="FortuneSub6" xml:space="preserve">
+    <value>四方貴人</value>
+  </data>
+  <data name="FortuneSub7" xml:space="preserve">
+    <value>棋卦內涵</value>
+  </data>
+  <data name="FortuneSub8" xml:space="preserve">
+    <value>本卦建言</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>象棋占卜沿革</value>
+  </data>
+  <data name="HistoryContent1" xml:space="preserve">
+    <value>象棋是諸葛亮(孔明)利用中國易經的思想及結構理論所創造出來的，當初主要是利用簡單的木材，製做出推演戰略用的沙盤佈陣工具，後來孔明利用易經的一元兩儀五行思想創造出現代我們所使用的象棋，當時象棋還有另外一項功能，就是用在問卜戰事的吉兇，所以象棋透過一元領導的兩儀管事五行的結構，產生了正派及反派兩個勢力的謀略運用(稱為陰陽消長)，左右兩組仕相車馬炮為輔弼(稱為兩儀)，再配合東營南營北營西營中壇等五營兵隨令戰鬥(稱為五行)，所以全盤32顆棋子是配合中國的三合四象思想所創造出來的，象棋的其中一項功能就是占卜。</value>
+  </data>
+  <data name="HistoryContent2" xml:space="preserve">
+    <value>象棋占卜所得到的解答是準確且直接的，所以占卜者要明白一件事，占卜所提出的問題尋求答案，必須是"吉"或"兇"的兩極回答，所以占卜不是算命而是問事，例如：問婚姻(江小明家住台北市松山區新東街3巷4號目前與王碧雲小姐認識交往三年【會不會】結婚)，默想三次後將棋隨機放入三角格陣中，就可以完成占卜過程，棋卦將會從三角格陣中的排列組合，運算出所問事件的"會"還是"不會"結婚，也可以從組合中得知事件的基礎、時機、環境、人為等相關的互動狀況，所以占卜首重有事才占，無事不占的原則，占卜時靜性心明默想排棋則會奇準無比。</value>
+  </data>
+  <data name="north" xml:space="preserve">
+    <value>北</value>
+  </data>
+  <data name="Note1" xml:space="preserve">
+    <value>(一個問題只能問一次,卜卦的結果才準確喔..)</value>
+  </data>
+  <data name="Note2" xml:space="preserve">
+    <value>請心中默念您想問的事情及或相關人姓名或目的後，請按"抄兵佈棋"</value>
+  </data>
+  <data name="Opportunity" xml:space="preserve">
+    <value>天時</value>
+  </data>
+  <data name="Question1" xml:space="preserve">
+    <value>請摘要寫下您的問題</value>
+  </data>
+  <data name="R1_1" xml:space="preserve">
+    <value>吉凶</value>
+  </data>
+  <data name="R1_2" xml:space="preserve">
+    <value>有沒有</value>
+  </data>
+  <data name="R1_3" xml:space="preserve">
+    <value>可不可</value>
+  </data>
+  <data name="R1_4" xml:space="preserve">
+    <value>會不會</value>
+  </data>
+  <data name="R1_5" xml:space="preserve">
+    <value>買不買</value>
+  </data>
+  <data name="R1_6" xml:space="preserve">
+    <value>好不好</value>
+  </data>
+  <data name="R1_7" xml:space="preserve">
+    <value>要不要</value>
+  </data>
+  <data name="R1_8" xml:space="preserve">
+    <value>行不行</value>
+  </data>
+  <data name="SelectCategory" xml:space="preserve">
+    <value>請選擇分類</value>
+  </data>
+  <data name="select_01_1" xml:space="preserve">
+    <value>運勢</value>
+  </data>
+  <data name="select_01_2" xml:space="preserve">
+    <value>親子</value>
+  </data>
+  <data name="select_01_3" xml:space="preserve">
+    <value>愛情</value>
+  </data>
+  <data name="select_01_4" xml:space="preserve">
+    <value>財富</value>
+  </data>
+  <data name="select_01_5" xml:space="preserve">
+    <value>事業</value>
+  </data>
+  <data name="select_01_6" xml:space="preserve">
+    <value>學業</value>
+  </data>
+  <data name="select_01_7" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="Social" xml:space="preserve">
+    <value>人和</value>
+  </data>
+  <data name="south" xml:space="preserve">
+    <value>南</value>
+  </data>
+  <data name="Specific" xml:space="preserve">
+    <value>請勾選問題的性質是屬於下列哪一類型</value>
+  </data>
+  <data name="spring" xml:space="preserve">
+    <value>春</value>
+  </data>
+  <data name="Submit1" xml:space="preserve">
+    <value>抄兵佈棋</value>
+  </data>
+  <data name="summer" xml:space="preserve">
+    <value>夏</value>
+  </data>
+  <data name="Surroundings" xml:space="preserve">
+    <value>身邊</value>
+  </data>
+  <data name="west" xml:space="preserve">
+    <value>西</value>
+  </data>
+  <data name="winter" xml:space="preserve">
+    <value>冬</value>
+  </data>
+  <data name="R1_1N" xml:space="preserve">
+    <value>凶</value>
+  </data>
+  <data name="R1_1Y" xml:space="preserve">
+    <value>吉</value>
+  </data>
+  <data name="R1_2N" xml:space="preserve">
+    <value>沒有</value>
+  </data>
+  <data name="R1_2Y" xml:space="preserve">
+    <value>有</value>
+  </data>
+  <data name="R1_3N" xml:space="preserve">
+    <value>不可以</value>
+  </data>
+  <data name="R1_3Y" xml:space="preserve">
+    <value>可以</value>
+  </data>
+  <data name="R1_4N" xml:space="preserve">
+    <value>不會</value>
+  </data>
+  <data name="R1_4Y" xml:space="preserve">
+    <value>會</value>
+  </data>
+  <data name="R1_5N" xml:space="preserve">
+    <value>不要買</value>
+  </data>
+  <data name="R1_5Y" xml:space="preserve">
+    <value>要買</value>
+  </data>
+  <data name="R1_6N" xml:space="preserve">
+    <value>不好</value>
+  </data>
+  <data name="R1_6Y" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="R1_7N" xml:space="preserve">
+    <value>不要</value>
+  </data>
+  <data name="R1_7Y" xml:space="preserve">
+    <value>要</value>
+  </data>
+  <data name="R1_8N" xml:space="preserve">
+    <value>不行</value>
+  </data>
+  <data name="R1_8Y" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="t4_N" xml:space="preserve">
+    <value>時運不對</value>
+  </data>
+  <data name="t4_Y" xml:space="preserve">
+    <value>配合得宜</value>
+  </data>
+  <data name="t5_N" xml:space="preserve">
+    <value>環境不利</value>
+  </data>
+  <data name="t5_Y" xml:space="preserve">
+    <value>環境配合</value>
+  </data>
+  <data name="t6_N" xml:space="preserve">
+    <value>人事不和</value>
+  </data>
+  <data name="t6_Y" xml:space="preserve">
+    <value>配合得宜</value>
+  </data>
+  <data name="Benefactor1" xml:space="preserve">
+    <value>大貴人</value>
+  </data>
+  <data name="Benefactor10" xml:space="preserve">
+    <value>敵人</value>
+  </data>
+  <data name="Benefactor11" xml:space="preserve">
+    <value>好人</value>
+  </data>
+  <data name="Benefactor12" xml:space="preserve">
+    <value>好人</value>
+  </data>
+  <data name="Benefactor13" xml:space="preserve">
+    <value>小人</value>
+  </data>
+  <data name="Benefactor14" xml:space="preserve">
+    <value>小人</value>
+  </data>
+  <data name="Benefactor2" xml:space="preserve">
+    <value>大貴人</value>
+  </data>
+  <data name="Benefactor3" xml:space="preserve">
+    <value>大貴人</value>
+  </data>
+  <data name="Benefactor4" xml:space="preserve">
+    <value>中貴人</value>
+  </data>
+  <data name="Benefactor5" xml:space="preserve">
+    <value>中貴人</value>
+  </data>
+  <data name="Benefactor6" xml:space="preserve">
+    <value>小貴人</value>
+  </data>
+  <data name="Benefactor7" xml:space="preserve">
+    <value>小貴人</value>
+  </data>
+  <data name="Benefactor8" xml:space="preserve">
+    <value>敵人</value>
+  </data>
+  <data name="Benefactor9" xml:space="preserve">
+    <value>敵人</value>
+  </data>
+  <data name="Event0_0_0" xml:space="preserve">
+    <value>目前及未來很長時間才有機會可能發生</value>
+  </data>
+  <data name="Event0_0_1" xml:space="preserve">
+    <value>等待49天後，才會有可能產生機會</value>
+  </data>
+  <data name="Event0_1_0" xml:space="preserve">
+    <value>需要等待49天後才會有可能發生</value>
+  </data>
+  <data name="Event0_1_1" xml:space="preserve">
+    <value>很久就已經存在的事實</value>
+  </data>
+  <data name="Event1_0_0" xml:space="preserve">
+    <value>目前及未來很長時間才有機會可能發生</value>
+  </data>
+  <data name="Event1_0_1" xml:space="preserve">
+    <value>49天內將有凸顯事件</value>
+  </data>
+  <data name="Event1_1_0" xml:space="preserve">
+    <value>要在等待49天後，才會有可能產生機會</value>
+  </data>
+  <data name="Event1_1_1" xml:space="preserve">
+    <value>很早已經是存在的事實</value>
+  </data>
+  <data name="FortuneType1" xml:space="preserve">
+    <value>大吉轉凶</value>
+  </data>
+  <data name="FortuneType10" xml:space="preserve">
+    <value>大凶</value>
+  </data>
+  <data name="FortuneType11" xml:space="preserve">
+    <value>中凶</value>
+  </data>
+  <data name="FortuneType12" xml:space="preserve">
+    <value>中凶</value>
+  </data>
+  <data name="FortuneType13" xml:space="preserve">
+    <value>小凶</value>
+  </data>
+  <data name="FortuneType14" xml:space="preserve">
+    <value>小凶</value>
+  </data>
+  <data name="FortuneType2" xml:space="preserve">
+    <value>大吉</value>
+  </data>
+  <data name="FortuneType3" xml:space="preserve">
+    <value>大吉</value>
+  </data>
+  <data name="FortuneType4" xml:space="preserve">
+    <value>中吉</value>
+  </data>
+  <data name="FortuneType5" xml:space="preserve">
+    <value>中吉</value>
+  </data>
+  <data name="FortuneType6" xml:space="preserve">
+    <value>小吉</value>
+  </data>
+  <data name="FortuneType7" xml:space="preserve">
+    <value>小吉</value>
+  </data>
+  <data name="FortuneType8" xml:space="preserve">
+    <value>大凶轉吉</value>
+  </data>
+  <data name="FortuneType9" xml:space="preserve">
+    <value>大凶</value>
+  </data>
+  <data name="Suggest0_0_0_0_0_0" xml:space="preserve">
+    <value>困境很久，終於得到暫時的舒解，必須統一資源分配過度</value>
+  </data>
+  <data name="Suggest0_0_0_0_0_1" xml:space="preserve">
+    <value>有同樣的對手，針對同樣目標在進行競爭，會被對手打敗</value>
+  </data>
+  <data name="Suggest0_0_0_0_1_0" xml:space="preserve">
+    <value>執行上得以順利，暫時得到貴人相協助，但防止內部破壞</value>
+  </data>
+  <data name="Suggest0_0_0_0_1_1" xml:space="preserve">
+    <value>使用方法錯誤，導致無法有效掌握事件的運辰，容易誤判事實</value>
+  </data>
+  <data name="Suggest0_0_0_1_0_0" xml:space="preserve">
+    <value>一切就緒可以行動，但要有不斷的修正方向，維持在一定表準</value>
+  </data>
+  <data name="Suggest0_0_0_1_0_1" xml:space="preserve">
+    <value>按部就班，小心的經營，會有意想不到的利益或好處和成功</value>
+  </data>
+  <data name="Suggest0_0_0_1_1_0" xml:space="preserve">
+    <value>將有完全的轉機是良性改變，必須集中資源隨時應變</value>
+  </data>
+  <data name="Suggest0_0_0_1_1_1" xml:space="preserve">
+    <value>容易不自覺的陷入困境，必須將問題根源，找出才能打開困境</value>
+  </data>
+  <data name="Suggest0_0_1_0_0_0" xml:space="preserve">
+    <value>平均對待兩人，共享要持公平原則，相互分工</value>
+  </data>
+  <data name="Suggest0_0_1_0_0_1" xml:space="preserve">
+    <value>自不量力做出超過能力以外的承擔，就會失敗，要知道何時收場</value>
+  </data>
+  <data name="Suggest0_0_1_0_1_0" xml:space="preserve">
+    <value>前途艱難，執行上產生困難，意見不和吵架，但目標一致</value>
+  </data>
+  <data name="Suggest0_0_1_0_1_1" xml:space="preserve">
+    <value>一切以準備完成，已可以行動，而且非動不可，因為情勢一定</value>
+  </data>
+  <data name="Suggest0_0_1_1_0_0" xml:space="preserve">
+    <value>不可急，容易發生不可測狀況，應該照原則規定行事</value>
+  </data>
+  <data name="Suggest0_0_1_1_0_1" xml:space="preserve">
+    <value>放棄所有的資源，重新開始，容易賠倒所有一切資源</value>
+  </data>
+  <data name="Suggest0_0_1_1_1_0" xml:space="preserve">
+    <value>若小有成就必須好好培養，不可自滿容易無疾而終</value>
+  </data>
+  <data name="Suggest0_0_1_1_1_1" xml:space="preserve">
+    <value>陷入混亂局面到不可解脫情境，最好先思考周詳</value>
+  </data>
+  <data name="Suggest0_1_0_0_0_0" xml:space="preserve">
+    <value>強大的企圖，造成行為失去原則，容易鬥爭，大勢將遠去</value>
+  </data>
+  <data name="Suggest0_1_0_0_0_1" xml:space="preserve">
+    <value>狀況不明所以不可貪，只要掌握得到的就行了，見好就收不可想戀戰</value>
+  </data>
+  <data name="Suggest0_1_0_0_1_0" xml:space="preserve">
+    <value>看到的只是虛幻只會徒勞無功，不要一昧己見，小心被騙</value>
+  </data>
+  <data name="Suggest0_1_0_0_1_1" xml:space="preserve">
+    <value>看得到得不到，無奈無法達成目標，必須改變方式</value>
+  </data>
+  <data name="Suggest0_1_0_1_0_0" xml:space="preserve">
+    <value>目前的困難將會一個一個的解脫，但不代表問題會解決</value>
+  </data>
+  <data name="Suggest0_1_0_1_0_1" xml:space="preserve">
+    <value>一直不段的循環，同一個步驟沒有建樹，重新開始</value>
+  </data>
+  <data name="Suggest0_1_0_1_1_0" xml:space="preserve">
+    <value>容易被設計而步入不可脫身的困境不可雞婆</value>
+  </data>
+  <data name="Suggest0_1_0_1_1_1" xml:space="preserve">
+    <value>會有爭執或計畫產生矛盾及競爭事件，小心有訴訟危機</value>
+  </data>
+  <data name="Suggest0_1_1_0_0_0" xml:space="preserve">
+    <value>成功是注定的，只是時間的問題，運勢將起，只可惜時限不久</value>
+  </data>
+  <data name="Suggest0_1_1_0_0_1" xml:space="preserve">
+    <value>沈重的壓力，又逢到抉擇性的問題，但不管如何抉擇，終究是錯</value>
+  </data>
+  <data name="Suggest0_1_1_0_1_0" xml:space="preserve">
+    <value>要達到目標很難，除非再用功努力，會否極泰來，完成不可能的任務</value>
+  </data>
+  <data name="Suggest0_1_1_0_1_1" xml:space="preserve">
+    <value>只有等待下一次機會，有些事物是有循環的時機，成熟自然成</value>
+  </data>
+  <data name="Suggest0_1_1_1_0_0" xml:space="preserve">
+    <value>只要做好準備等待時機，機會自然就會自己來</value>
+  </data>
+  <data name="Suggest0_1_1_1_0_1" xml:space="preserve">
+    <value>作岸觀火鬥，漁翁得力時，不要隨便和人競爭，只要拾便宜</value>
+  </data>
+  <data name="Suggest0_1_1_1_1_0" xml:space="preserve">
+    <value>光想不做有計畫不執行，只想一步登天，卻又走不出那一步</value>
+  </data>
+  <data name="Suggest0_1_1_1_1_1" xml:space="preserve">
+    <value>小心將遭遇新的問題，容易被朋友或小人設計是個圈套</value>
+  </data>
+  <data name="Suggest1_0_0_0_0_0" xml:space="preserve">
+    <value>意見相左，組織內部份派系有革命推反的動力產生必須訂原則</value>
+  </data>
+  <data name="Suggest1_0_0_0_0_1" xml:space="preserve">
+    <value>想達到目的，且能得到比別人多的資源及控制權，就必須尋求能人協助</value>
+  </data>
+  <data name="Suggest1_0_0_0_1_0" xml:space="preserve">
+    <value>會產生混亂，無知困境才枯思沒，必須從開始掌握過程方法</value>
+  </data>
+  <data name="Suggest1_0_0_0_1_1" xml:space="preserve">
+    <value>死的不可能活用，盡的不可能再生，必須藉助他人之力，或尋求代用資源</value>
+  </data>
+  <data name="Suggest1_0_0_1_0_0" xml:space="preserve">
+    <value>會一鳴驚人或打吵驚蛇，應小人的改變，狀況不可急攻進切</value>
+  </data>
+  <data name="Suggest1_0_0_1_0_1" xml:space="preserve">
+    <value>任人擺佈，拿人手短吃人嘴軟容易被控制</value>
+  </data>
+  <data name="Suggest1_0_0_1_1_0" xml:space="preserve">
+    <value>險中求勝，必須要把持自我原則，及可解遭遇的狀況或損失</value>
+  </data>
+  <data name="Suggest1_0_0_1_1_1" xml:space="preserve">
+    <value>容易落入陷阱，最好自然發展，切忌躁進（有牢獄之災）</value>
+  </data>
+  <data name="Suggest1_0_1_0_0_0" xml:space="preserve">
+    <value>忘恩負義，背叛洩密，做小動作，貴人變小人</value>
+  </data>
+  <data name="Suggest1_0_1_0_0_1" xml:space="preserve">
+    <value>很容易成功而自滿，而且成功一次就沒下一次，所以要不斷的改進，否則自滅</value>
+  </data>
+  <data name="Suggest1_0_1_0_1_0" xml:space="preserve">
+    <value>將會凸顯但也表示目標明顯，易自滿而遭忌，也該收場的時候</value>
+  </data>
+  <data name="Suggest1_0_1_0_1_1" xml:space="preserve">
+    <value>不要一昧追求表象，而放棄了一切可控制的資源，有被騙的可能</value>
+  </data>
+  <data name="Suggest1_0_1_1_0_0" xml:space="preserve">
+    <value>將過去舊有的資源再使用，不可一味，追求新方式，容易失敗</value>
+  </data>
+  <data name="Suggest1_0_1_1_0_1" xml:space="preserve">
+    <value>順應時事以理性規則去處理，可得天助</value>
+  </data>
+  <data name="Suggest1_0_1_1_1_0" xml:space="preserve">
+    <value>需要協助，而可以得到協助，但是有條件的協助會動搖本來的根本</value>
+  </data>
+  <data name="Suggest1_0_1_1_1_1" xml:space="preserve">
+    <value>聽天由命請神協助，目前最好集中所有的資源，有效分配</value>
+  </data>
+  <data name="Suggest1_1_0_0_0_0" xml:space="preserve">
+    <value>要改變原則，會影響整體利益時必須事前溝通以後，再改變規定</value>
+  </data>
+  <data name="Suggest1_1_0_0_0_1" xml:space="preserve">
+    <value>資源不平均的運用，造成食之無味，棄之可惜，必須統一供同執行功能</value>
+  </data>
+  <data name="Suggest1_1_0_0_1_0" xml:space="preserve">
+    <value>消滅後再用別的方式重生，可以逃避不必要的困腦，又可存在</value>
+  </data>
+  <data name="Suggest1_1_0_0_1_1" xml:space="preserve">
+    <value>有點賭運氣的味道，所以容易化為烏有，必須瞭解實情再動作</value>
+  </data>
+  <data name="Suggest1_1_0_1_0_0" xml:space="preserve">
+    <value>不可欺騙，一切都是假象，迷思此一假象，必須解決</value>
+  </data>
+  <data name="Suggest1_1_0_1_0_1" xml:space="preserve">
+    <value>小心賠去所有的資源還得不到預期的目標</value>
+  </data>
+  <data name="Suggest1_1_0_1_1_0" xml:space="preserve">
+    <value>如果順應事實或趁火打劫，小心失敗、最好自律，重新整理資源。</value>
+  </data>
+  <data name="Suggest1_1_0_1_1_1" xml:space="preserve">
+    <value>曲高和寡必須制訂規劃規則而且少說多做按部就班</value>
+  </data>
+  <data name="Suggest1_1_1_0_0_0" xml:space="preserve">
+    <value>目前處於非常平和的處境，名聲揚名立萬持續發展</value>
+  </data>
+  <data name="Suggest1_1_1_0_0_1" xml:space="preserve">
+    <value>蓄積資源，展現實力，可以開始行動大展身手，成功在望</value>
+  </data>
+  <data name="Suggest1_1_1_0_1_0" xml:space="preserve">
+    <value>曾有初步的結果，但是基礎不穩定，必須隨時保持基礎穩定</value>
+  </data>
+  <data name="Suggest1_1_1_0_1_1" xml:space="preserve">
+    <value>虛幻情境造成，白忙一場，應不斷學習及修正，不致於被表像所欺</value>
+  </data>
+  <data name="Suggest1_1_1_1_0_0" xml:space="preserve">
+    <value>會得到預期資源，順勢而為，但不可躁進，必須有效運用和處理</value>
+  </data>
+  <data name="Suggest1_1_1_1_0_1" xml:space="preserve">
+    <value>花費很大資源，只為了一個小目的，表示努力不足以控管本體以外的資源</value>
+  </data>
+  <data name="Suggest1_1_1_1_1_0" xml:space="preserve">
+    <value>小心得而復失，會一時興起，造成無法補救的失誤</value>
+  </data>
+  <data name="Suggest1_1_1_1_1_1" xml:space="preserve">
+    <value>困境可得到舒解，目前必須分工發展才有機會</value>
+  </data>
+  <data name="t1_1" xml:space="preserve">
+    <value>占得此卦，要維持「主導權」，只要是按照一切正常的普世價值及規則執行，就會順利。此卦最重要的是「主導權」，也代表領導權及最佳的狀況可以執行所占的事情，但是必須注意領導者的功能是哪些？以及包容的心胸。</value>
+  </data>
+  <data name="t1_10" xml:space="preserve">
+    <value>占得此卦，表示所問的事情，先前沒有做好計劃或計劃錯誤。此卦代表企劃失誤或觀念錯誤，就好像想的跟實際的不一樣，最好停止，以待時機再做打算，或重新收集可靠資訊情報再重新規劃。</value>
+  </data>
+  <data name="t1_11" xml:space="preserve">
+    <value>占得此卦，表示協調、配合、互動、管理，產生負面的問題，或者是還沒達成一定的組織結構，所以要執行所問的事件，不易或不可執行，以免失敗或受到損失。</value>
+  </data>
+  <data name="t1_12" xml:space="preserve">
+    <value>占得此卦，表示企圖心不足，或某些能量不足，例如：資金、人員、信心等。由於不足，往往到頭來是白忙一場。所以建議沒有萬全的準備，勿做心急的動作，以免失敗。</value>
+  </data>
+  <data name="t1_13" xml:space="preserve">
+    <value>占得此卦，代表短時間內不適合運作所問的事件，最少再等一個半月看時機再占一次。這個卦有暫時停止呼吸的味道。</value>
+  </data>
+  <data name="t1_14" xml:space="preserve">
+    <value>占得此卦，會產生阻礙或小人及不合作的人，所以造成需要層層的突破，才能開始運作事情。所以不如先置身事外或等待時機。</value>
+  </data>
+  <data name="t1_2" xml:space="preserve">
+    <value>占得此卦，要恪守計畫及有計畫的從事所占卜的事情。「信任及信用」是很重要的。最好要有法規合約或口頭承諾，不可以脫離普世價值及道德規範。此卦最重要的是「規則」、「規律」、「法律」、「原則」，只要恪守，執行就會順利。</value>
+  </data>
+  <data name="t1_3" xml:space="preserve">
+    <value>占得此卦，要有「近程、中程、遠程」等計劃，尤其是謀略式的處世模式很重要，這表示所占的事件是一件很傷神，操頭腦的事情。所以計劃、企劃、謀略、圖謀是本卦的精神所在。</value>
+  </data>
+  <data name="t1_4" xml:space="preserve">
+    <value>占得此卦，要注重在「管理」，重點在流暢及平衡，尤其是互動協調。此卦最重要的是「管理」得當，則所占事件可運作無誤，所以要懂得「捨與得」之間的平衡及無私的公平，方可順利。</value>
+  </data>
+  <data name="t1_5" xml:space="preserve">
+    <value>占得此卦，要維持「能量」，動能是一切事物的運作力量，所以能量可以分為產生能量的「前使物」件，及能量本體，和後能量持續性。一般企圖慾望、目標等是產生動量的「前使物」件。而機會、時間、金錢、理由等就是能量。只要能掌握源源不斷的能量，此卦成功機會大。</value>
+  </data>
+  <data name="t1_6" xml:space="preserve">
+    <value>占得此卦，要以「時間、空間」來執行所占的事情。時間代表長期的計劃，空間代表各地區的發展。或是長時間的開發擴展地域的面，以維持事情的順利進行。</value>
+  </data>
+  <data name="t1_7" xml:space="preserve">
+    <value>占得此卦，要注重互助、互動、協調，尤其本卦有貴人相助的的現象，不適合自作主張，最好被動或順勢而為，表示所占的事件可行但尚不穩定。</value>
+  </data>
+  <data name="t1_8" xml:space="preserve">
+    <value>占得此卦，代表錯誤或專制的主導權及不當的領導，也有可能連普世價值都被自私所破壞，所以造成勾心鬥角的情況發生。建議最好暫停運作。只為一己之私，到頭來是失敗收場。</value>
+  </data>
+  <data name="t1_9" xml:space="preserve">
+    <value>占得此卦，代表固執、法律、糾紛、不當的規則與制度，造成錯誤或延遲，使事情不宜運作，最好先協商後再考慮是否可行。不然，一味的執著、紛爭，只會浪費時間。</value>
+  </data>
+  <data name="Note3" xml:space="preserve">
+    <value>請將32顆棋子中，任意點選6顆棋子</value>
+  </data>
+  <data name="a" xml:space="preserve">
+    <value>帥</value>
+  </data>
+  <data name="b" xml:space="preserve">
+    <value>仕</value>
+  </data>
+  <data name="c" xml:space="preserve">
+    <value>相</value>
+  </data>
+  <data name="d" xml:space="preserve">
+    <value>俥</value>
+  </data>
+  <data name="e" xml:space="preserve">
+    <value>傌</value>
+  </data>
+  <data name="f" xml:space="preserve">
+    <value>炮</value>
+  </data>
+  <data name="g" xml:space="preserve">
+    <value>兵</value>
+  </data>
+  <data name="h" xml:space="preserve">
+    <value>將</value>
+  </data>
+  <data name="i" xml:space="preserve">
+    <value>士</value>
+  </data>
+  <data name="j" xml:space="preserve">
+    <value>象</value>
+  </data>
+  <data name="k" xml:space="preserve">
+    <value>車</value>
+  </data>
+  <data name="l" xml:space="preserve">
+    <value>馬</value>
+  </data>
+  <data name="m" xml:space="preserve">
+    <value>包</value>
+  </data>
+  <data name="n" xml:space="preserve">
+    <value>卒</value>
+  </data>
+  <data name="Submit2" xml:space="preserve">
+    <value>看結果</value>
+  </data>
+  <data name="ContactContent" xml:space="preserve">
+    <value>意見/問題內容</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>電子郵件</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>送出</value>
+  </data>
+  <data name="SiteDescription" xml:space="preserve">
+    <value>免費 超準 算命 占卜 財運 事業 工作 爱情 感情 婚姻</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+</root>
